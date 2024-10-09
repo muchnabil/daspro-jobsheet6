@@ -21,11 +21,11 @@ public class Assignment2_14 {
                 else
                 discount = 0.10;
             else if(category.equalsIgnoreCase("novel"))
-                discount = 0.7;
+                discount = 0.07;
                     if(totalBook > 3)
                         discount =+ 0.1;
             else if(category.equalsIgnoreCase("other") && totalBook > 3)
-                discount = 0.5;
+                discount = 0.05;
 
         System.out.println("The discount is " + discount * 100 + "%");
         ;
