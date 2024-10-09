@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Selection2Exp214 {
     public static void main(String[] args) {
-        Scanner input2341760152 = new Scanner(System.in);
+        Scanner input14 = new Scanner(System.in);
 
-        System.out.print("Input the angle 1: ");
-        int angle1 = input2341760152.nextInt();
-        System.out.print("Input the angle 2: ");
-        int angle2 = input2341760152.nextInt();
-        System.out.print("Input the angle 3: ");
-        int angle3 = input2341760152.nextInt();
+        System.out.print("Input the angle 1 : ");
+        int angle1 = input14.nextInt();
+        System.out.print("Input the angle 2 : ");
+        int angle2 = input14.nextInt();
+        System.out.print("Input the angle 3 : ");
+        int angle3 = input14.nextInt();
 
         int totalAngle = angle1 + angle2 + angle3;
 
